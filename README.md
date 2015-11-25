@@ -13,7 +13,7 @@ vagrant plugin install vagrant-vbguest
 vagrant up
 ```
 
-That`s all. After provision application will be accessible on http://yii2.loc
+That`s all. After provision application will be accessible on http://yii2.dev
 
 Web server configured with three different web roots:
 - yii2.dev => /path/to/app/frontend/web
