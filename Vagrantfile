@@ -21,7 +21,12 @@ packages = [
     "nginx",
     "mysql-server-5.6",
     "hhvm",
-    "git"
+    "git",
+    "php5-sqlite",
+    "php5-pgsql",
+    "php5-memcache",
+    "php-apc",
+    "php5-imagick"
 ]
 
 Vagrant.configure(2) do |config|
